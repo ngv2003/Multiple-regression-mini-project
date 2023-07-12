@@ -6,7 +6,7 @@ import joblib
 model = joblib.load("model.joblib")
 
 st.title("Housing Prices Prediction")
-st.write()
+st.write("please give accurately")
 longitude = st.number_input("Enter the longitude ", format="%.4f")
 latitude = st.number_input("Enter the latitude ", format="%.4f")
 housing_median_age = st.number_input("Enter the housing median age ", format="%.4f")
