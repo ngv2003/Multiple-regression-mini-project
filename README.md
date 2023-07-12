@@ -1,4 +1,4 @@
-# Multiple-regression-mini-project
+# Multiple Regression Mini Project (House Price Prediction)
 This project covers a few basic topics in Machine Learning (Supervised Learning).
 This WebApp, developed by Streamlit, accepts the features of a house and uses Linear Regression to predict it's price.
 
