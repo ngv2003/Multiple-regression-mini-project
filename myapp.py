@@ -26,7 +26,8 @@ def predict():
 
     X = pd.DataFrame([arr], columns=columns)
     prediction = model.predict(X)
-    st.success("the predicted house price is "+prediction)
+    st.write("the predicted value of house is.." )
+    st.success(prediction)
 
 
 st.button("predict", on_click=predict)
